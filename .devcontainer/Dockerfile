@@ -25,4 +25,4 @@ RUN groupadd --gid $USER_GID $USERNAME \
 # RUN /bin/zsh ~/.zshrc
 # Switch back to root
 # USER root
-USER $USERNAME
+USER root
