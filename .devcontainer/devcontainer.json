@@ -18,7 +18,7 @@
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
-	// "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+	"postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
