@@ -14,6 +14,6 @@ RUN groupadd --gid $USER_GID $USERNAME \
 # set up oh my zsh
 RUN cd ~ && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # initialize ZSH
-RUN /bin/zsh ~/.zshrc
+# RUN /bin/zsh ~/.zshrc
 # Switch back to root
 USER root
